@@ -1,0 +1,111 @@
+01. Site Front Page Template:
+=============================
+01. front-page.php
+02. set admin dashboard front page (Follow:- Page Template)
+03. home.php
+04. index.php
+
+02. Site Blog List Page Template:
+================================
+01. home.php
+02. index.php
+
+03. Search Result Page Template:
+================================
+01. search.php
+02. index.php
+
+04. Error Page Template:
+========================
+01. 404.php
+02. index.php
+
+05. Page Template:
+==================
+01. Select Template (Ex: Template Name: Bashir Rased Template Post Type: page)
+02. page-slug.php
+03. page-id.php
+04. page.php
+05. singular.php
+06. index.php
+
+06. Post Template:
+==================
+01. Select Template (Ex: Template Name: Bashir Rased Template Post Type: post)
+02. single-post.php
+03. single.php
+04. singular.php
+05. index.php
+
+07. Custom Post Template:
+=========================
+01. Select Template (Ex: Template Name: Bashir Rased Template Post Type: custom)
+02. single-posttype-slug.php
+03. single-posttype.php
+04. single.php
+05. singular.php
+06. index.php
+
+08. Attachment Post Template:
+=============================
+01. mimetype-subtype.php (ex: image-jpeg)
+02. subtype.php (ex: jpeg)
+03. mimetype.php (ex: image)
+04. attachment.php
+05. single-attachment-slug.php
+06. single-attachment.php
+07. single.php
+08. singular.php
+09. index.php
+
+09. Author Archive Post Template:
+=================================
+01. author-$nicename.php
+02. author-$id.php
+03. author.php
+04. archive.php
+05. index.php
+
+10. Date Archive Post Template:
+===============================
+01. date.php
+02. archive.php
+03. index.php
+
+11. Category Archive Post Template:
+===================================
+01. category-$slug.php
+02. category-$id.php
+03. category.php
+04. archive.php
+05. index.php
+
+12. Tag Archive Post Template:
+==============================
+01. tag-$slug.php
+02. tag-$id.php
+03. tag.php
+04. archive.php
+05. index.php
+
+13. Taxonomy Archive Post Template:
+===================================
+01. taxonomy-$taxonomy-$term.php
+02. taxonomy-$taxonomy.php
+03. taxonomy.php
+04. archive.php
+05. index.php
+
+14. Custom Post Type Archive Post Template:
+===========================================
+01. archive-$posttype.php
+02. archive.php
+03. index.php
+
+15. oEmbed Template:
+====================
+01. embed-$posttype-$postformat.php
+02. embed-$posttype.php
+03. embed.php
+
+*/

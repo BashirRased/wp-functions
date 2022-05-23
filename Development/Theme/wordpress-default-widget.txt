@@ -1,0 +1,33 @@
+WordPress Default Widget Lists:
+===============================
+01. Archives
+02. Audio
+03. Calendar
+04. Categories
+05. Custom HTML
+06. Gallery
+07. Image
+08. Meta
+09. Navigation Menu
+10. Pages
+11. Recent Comments
+12. Recent Posts
+13. RSS
+14. Search
+15. Tag Cloud
+16. Text
+17. Video
+
+WordPress WooCommerce Plugin Install After New Widget Lists:
+============================================================
+01. Active Product Filters
+02. Filter Products by Attribute
+03. Filter Products by Price
+04. Filter Products by Rating
+05. Product Categories
+06. Products
+07. Product by Rating
+08. Product Search
+09. Product Tag Cloud
+10. Recent Product Reviews
+11. Recent Viewed Products

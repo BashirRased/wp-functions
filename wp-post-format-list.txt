@@ -1,0 +1,12 @@
+WordPress Post Formats:
+=======================
+01. Standard    – The default post format
+02. Aside       – A note like post, usually styled without title.
+03. Gallery     – A gallery of images.
+04. Link        – A link to another site.
+05. Image       – An image or photograph
+06. Quote       – A quotation.
+07. Status      – Twitter like short status update
+08. Video       – A post containing video
+09. Audio       – An audio file.
+10. Chat        – A chat transcript
