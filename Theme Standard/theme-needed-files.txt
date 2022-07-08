@@ -1,0 +1,20 @@
+WordPress Theme Activation Needed Files:
+========================================
+01. index.php
+02. style.css
+
+WordPress Theme Required Files:
+===============================
+03. functions.php
+04. screenshot.png
+05. readme.txt
+
+WordPress Theme Recommended Files:
+==================================
+06. singular.php
+07. 404.php
+08. comments.php
+09. header.php
+10. footer.php
+11. sidebar.php
+12. searchform.php

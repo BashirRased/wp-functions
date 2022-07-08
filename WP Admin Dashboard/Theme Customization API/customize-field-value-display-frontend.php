@@ -1,0 +1,1 @@
+<?php echo get_theme_mod('variable name here'); ?>

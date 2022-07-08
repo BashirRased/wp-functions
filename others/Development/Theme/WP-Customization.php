@@ -84,28 +84,7 @@ You can use it for the all of the following values:
 -------------------------------------->
 
 
-<?php 
-$categories = get_the_category( get_the_ID() );
-if( $categories ){
-    $output = "";
 
-    //display all the top-level categories first
-    foreach ($categories as $category) {
-        if( !$category->parent ){
-            $output .= '<a href="' . esc_url( get_category_link( $category->term_id ) ) . '" title="' . esc_attr( sprintf( __( "View all posts in %s" ), $category->name ) ) . '" >' . $category->name.'</a>,';
-        }
-    }
-
-    //now, display all the child categories
-    foreach ($categories as $category) {
-        if( $category->parent ){
-            $output .= '<a href="' . esc_url( get_category_link( $category->term_id ) ) . '" title="' . esc_attr( sprintf( __( "View all posts in %s" ), $category->name ) ) . '" >' . $category->name.'</a>,';
-        }
-    }
-
-    echo trim( $output, "," );
-}
-?>
 
 
 <?php
@@ -199,31 +178,6 @@ add_action( 'wp_head', 'wpse53364' );
 		}
 	}
 	?>
-	
-<?php
-
-function rb_customize_menu($rb_customize){
-
-	$rb_customize->add_section('social_links',array(
-		'title'	=> 'Social Media Links',
-		'priority'	=> 60
-	));
-
-	$rb_customize->add_setting('facebook_links',array(
-		'default'	=> 'http://facebook.com',
-		'transport'	=> 'refresh'
-		//'transport'	=> 'postMessage'
-	));
-
-	$rb_customize->add_control('facebook_links',array(
-		'section'	=> 'social_links',
-		'label'	=> 'Facebook Link:',
-		'type'	=> 'text'
-	));
-
-}
-add_action('customize_register', 'rb_customize_menu');
-?>
 
 
 <?php
@@ -258,21 +212,3 @@ add_shortcode('youtube','youtube_shortcode');
 ?>
 
 
-<?php
-$categories = get_categories( array(
-    'orderby' => 'name',
-    'order'   => 'ASC'
-) );
- 
-foreach( $categories as $category ) {
-    $category_link = sprintf( 
-        '<a href="%1$s" alt="%2$s">%3$s</a>',
-        esc_url( get_category_link( $category->term_id ) ),
-        esc_attr( sprintf( __( 'View all posts in %s', 'textdomain' ), $category->name ) ),
-        esc_html( $category->name )
-    );
-     
-    echo '<p>' . sprintf( esc_html__( 'Category: %s', 'textdomain' ), $category_link ) . '</p> ';
-    echo '<p>' . sprintf( esc_html__( 'Description: %s', 'textdomain' ), $category->description ) . '</p>';
-    echo '<p>' . sprintf( esc_html__( 'Post Count: %s', 'textdomain' ), $category->count ) . '</p>';
-} 

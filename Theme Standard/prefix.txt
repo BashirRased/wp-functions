@@ -1,0 +1,38 @@
+WP theme prefix all the things example:
+=======================================
+01. Text Domain:
+	Ex: prefix-text-domain
+
+02. PHP Function Name:
+	Ex: function prefix_function_name()
+
+03. PHP Class Name:
+	Ex: class Prefix_Class_Name {}
+
+04. PHP Global Variable:
+    Ex: global $prefix_global_variable;
+
+05. Action Hook:
+    Ex: do_action( 'prefix_action_hook' );
+
+06. Filter Hook:
+    Ex: apply_filters( 'prefix_filter_hook', true );
+
+07. Script Handle:
+	Ex: wp_enqueue_script( 'prefix-handle-name', get_theme_directory_uri() ) . 'js/prefix-file-name.js' );
+
+08. Style Handle:
+	Ex: wp_enqueue_style( 'prefix-handle-name', get_theme_directory_uri() ) . 'css/prefix-file-name.css' );
+
+09. Image Size Name:
+	Ex: add_image_size( 'prefix-name', 1000, 500 );
+
+When to break the rules:
+========================
+01. Pluggable functions
+02. Third-party script/style handles
+03. Third-party PHP scripts/libraries
+
+WP theme prefix all the things example link:
+============================================
+01. https://themereview.co/prefix-all-the-things/

@@ -1,0 +1,9 @@
+WordPress Dashicons Link:
+=========================
+https://developer.wordpress.org/resource/dashicons/
+
+Facebook   -> dashicons-facebook-alt
+Twitter    -> dashicons-twitter
+Instagram  -> dashicons-instagram
+LinkedIn   -> dashicons-linkedin
+Pinterest  -> dashicons-pinterest

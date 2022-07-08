@@ -1,0 +1,43 @@
+Required HTML Codes:
+====================
+01. HTML Version Structure
+
+02. <html <?php language_attributes(); ?> >
+
+03. <meta charset="<?php bloginfo( 'charset' ); ?>" />
+
+04. <?php wp_head(); ?>
+
+05. <?php wp_footer(); ?>
+
+06. <body <?php body_class(); ?> >
+
+07. <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> >  </article>
+
+08. <?php wp_link_pages(); ?>
+
+09. Add post pagination:
+    <?php posts_nav_link(); ?> or 
+    <?php paginate_links(); ?> or 
+    <?php the_posts_pagination(); ?> or 
+    <?php the_posts_navigation(); ?> or  
+    <?php next_posts_link(); ?> or  
+    <?php previous_posts_link(); ?>
+
+10. Add comment template:
+    <?php comments_template( $file, $separate_comments ); ?>
+
+11. <?php comment_form(); ?>
+
+12. <?php wp_list_comments(); ?>
+
+13. Add comment pagination:
+    <?php paginate_comments_links(); ?> or 
+    <?php the_comments_navigation(); ?> or 
+    <?php the_comments_pagination(); ?> or 
+    <?php next_comments_link(); ?> or 
+    <?php previous_comments_link(); ?>
+
+14. <?php the_tags( 'Tags: ', ', ' ); ?>
+
+15. <?php get_avatar(); ?>

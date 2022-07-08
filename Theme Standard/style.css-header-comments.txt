@@ -1,0 +1,16 @@
+Required style.css Header Comments:
+===================================
+Theme name:
+Text Domain:
+Version:
+Description:
+Author:
+License:
+License URI:
+Tested up to:
+
+Recommended style.css Header Comments:
+======================================
+Tags:
+Author URI:
+Theme URI:

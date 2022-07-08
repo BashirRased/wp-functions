@@ -1,0 +1,9 @@
+Required functions.php File PHP Codes:
+======================================
+01. add_theme_support( 'title-tag' );
+02. add_theme_support( 'automatic-feed-links' );
+03. $content_width;
+
+Recommended functions.php File PHP Codes:
+=========================================
+01. add_theme_support( 'post-thumbnails' );

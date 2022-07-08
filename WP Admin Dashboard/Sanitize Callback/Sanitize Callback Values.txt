@@ -1,0 +1,18 @@
+Sanitize Callback Values:
+========================
+sanitize_email
+sanitize_file_name
+sanitize_html_class
+sanitize_key
+sanitize_meta
+sanitize_mime_type
+sanitize_option
+sanitize_sql_orderby
+sanitize_text_field
+sanitize_title
+sanitize_title_for_query
+sanitize_title_with_dashes
+sanitize_user
+esc_url_raw
+wp_filter_post_kses
+wp_filter_nohtml_kses

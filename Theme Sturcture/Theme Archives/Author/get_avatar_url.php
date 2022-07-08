@@ -1,0 +1,1 @@
+<img src="<?php echo esc_url( get_avatar_url( wp_get_current_user() ) ); ?>" />

@@ -1,0 +1,105 @@
+Text Type Blocks:
+=================
+01. Paragraph       -> core/paragraph
+02. Heading         -> core/heading
+03. list            -> core/list
+04. Quote           -> core/quote
+05. Classic         -> core/freeform
+06. Code            -> core/code
+07. Preformatted    -> core/preformatted
+08. Pullquote       -> core/pullquote
+09. Table           -> core/table
+10. Verse           -> core/verse
+
+Media Type Blocks:
+==================
+11. Image           -> core/image
+12. Gallery         -> core/gallery
+13. Audio           -> core/audio
+14. Cover           -> core/cover
+15. File            -> core/file
+16. Media & Text    -> core/media-text
+17. Video           -> core/video
+
+Design Type Blocks:
+===================
+18. Buttons         -> core/buttons
+19. Columns         -> core/columns
+20. Group           -> core/group
+21. Row             -> core/group (Inside)
+22. More            -> core/more
+23. Page Break      -> core/nextpage
+24. Separator       -> core/separator
+25. Spacer          -> core/spacer
+
+Widgets Type Blocks:
+====================
+26. Archives        -> core/archives
+27. Calendar        -> core/calendar
+28. Categories      -> core/categories
+29. Custom HTML     -> core/html
+30. Latest Comments -> core/latest-comments
+31. Latest Posts    -> core/latest-posts
+32. Page List       -> core/page-list
+33. RSS             -> core/rss
+34. Search          -> core/search
+35. Shortcode       -> core/shortcode
+36. Social Icons    -> core/social-links
+37. Tag Cloud       -> core/tag-cloud
+
+Theme Type Blocks:
+==================
+38. Navigation                          -> core/navigation
+39. Site Logo                           -> core/site-logo
+40. Site Title                          -> core/site-title
+41. Site Tagline                        -> core/site-tagline
+42. Query Loop                          -> core/query
+43. Posts List [Post Template]          -> core/query (Inside->core/post-template)
+44. Post Title                          -> core/post-title
+45. Post Excerpt                        -> core/post-excerpt
+46. Post Featured Image                 -> core/post-featured-image
+47. Post Content                        -> core/post-content
+48. Post Author                         -> core/post-author
+49. Post Date                           -> core/post-date
+50. Post Categories[Post Terms]         -> core/post-terms
+51. Post Tags[Post Terms]               -> core/post-terms
+52. Next post[Post Navigation Link]     -> core/post-navigation-link
+53. Previous post[Post Navigation Link] -> core/post-navigation-link
+54. Post Comments                       -> core/post-comments
+55. Login/out                           -> core/loginout
+56. Term Description                    -> core/term-description
+57. Archive Title[Query Title]          -> core/query-title
+
+Embeds Type Blocks:
+===================
+58. Embed        	    -> core/embed
+59. Twitter[]        	    -> core/embed (Inside)
+60. YouTube                 -> core/embed (Inside)
+61. WordPress               -> core/embed (Inside)
+62. SoundCloud              -> core/embed (Inside)
+63. Spotify                 -> core/embed (Inside)
+64. Flickr                  -> core/embed (Inside)
+65. Vimeo                   -> core/embed (Inside)
+66. Animoto                 -> core/embed (Inside)
+67. Cloudup                 -> core/embed (Inside)
+68. Crowdsignal             -> core/embed (Inside)
+69. Dailymotion             -> core/embed (Inside)
+70. Imgur                   -> core/embed (Inside)
+71. Issuu                   -> core/embed (Inside)
+72. Kickstarter             -> core/embed (Inside)
+73. Mixcloud                -> core/embed (Inside)
+74. Reddit                  -> core/embed (Inside)
+75. ReverbNation            -> core/embed (Inside)
+76. Screencast              -> core/embed (Inside)
+77. Scribd                  -> core/embed (Inside)
+78. Slideshare              -> core/embed (Inside)
+79. SmugMug                 -> core/embed (Inside)
+80. Speaker Deck            -> core/embed (Inside)
+81. TikTok[Embed]           -> core/embed (Inside)
+82. TED[Embed]              -> core/embed (Inside)
+83. Tumblr[Embed]           -> core/embed (Inside)
+84. VideoPress[Embed]       -> core/embed (Inside)
+85. WordPress.tv[Embed]     -> core/embed (Inside)
+86. Amazon Kindle[Embed]    -> core/embed (Inside)
+87. Pinterest[Embed]        -> core/embed (Inside)
+88. Wolfram Cloud[Embed]    -> core/embed (Inside)
