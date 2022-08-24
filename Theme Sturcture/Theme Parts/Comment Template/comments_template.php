@@ -1,1 +1,0 @@
-<?php comments_template($file, $separate_comments); ?>

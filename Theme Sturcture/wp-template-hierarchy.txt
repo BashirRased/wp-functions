@@ -107,5 +107,3 @@
 01. embed-$posttype-$postformat.php
 02. embed-$posttype.php
 03. embed.php
-
-*/

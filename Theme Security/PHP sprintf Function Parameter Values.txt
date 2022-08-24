@@ -1,0 +1,17 @@
+PHP sprintf() Function Parameter Values:
+========================================
+01. %% - Returns a percent sign
+02. %b - Binary number
+03. %c - The character according to the ASCII value
+04. %d - Signed decimal number (negative, zero or positive)
+05. %e - Scientific notation using a lowercase (e.g. 1.2e+2)
+06. %E - Scientific notation using a uppercase (e.g. 1.2E+2)
+07. %u - Unsigned decimal number (equal to or greather than zero)
+08. %f - Floating-point number (local settings aware)
+09. %F - Floating-point number (not local settings aware)
+10. %g - shorter of %e and %f
+11. %G - shorter of %E and %f
+12. %o - Octal number
+13. %s - String
+14. %x - Hexadecimal number (lowercase letters)
+15. %X - Hexadecimal number (uppercase letters)
