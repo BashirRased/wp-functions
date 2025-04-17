@@ -1,0 +1,21 @@
+Subject tags (max 3 tags) - Requirement
+blog
+e-commerce
+education
+entertainment
+food-and-drink
+holiday
+news
+photography
+portfolio
+
+Layout tags - Requirement
+grid-layout
+one-column
+two-columns
+three-columns
+four-columns
+left-sidebar
+right-sidebar
+
+Features tags - Requirement
